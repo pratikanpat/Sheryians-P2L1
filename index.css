@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+    width: 100%;
+}
+.header{
+    display: flex;
+    align-items: center;
+    height: 120px;
+    background-color: #f1f1f1;
+}
+.headerp1,
+.headerp2{
+    margin-left: 10px;
+    height: 100px;
+    width: 33%;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    padding: 0px 20px;
+}
+.headerp3{
+    height: 100px;
+    width: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 25px;
+    padding: 0px 20px;
+}
+#hello{
+    margin-top: 90px ;
+    margin-left: 35px;
+    font-size: 30px;
+    font-weight: 600;
+}
+.hero-tag{
+    height: 550px;
+    width: 100%;
+    font-size: 130px;
+    padding: 10px 0px 0px 35px;
+}
+.case-study{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 900;
+}
+.case-study p1{
+    margin-left: 35px;
+}
+.case-study p2{
+    margin-left: 1480px;
+}
+
+
+.box-container{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 750px;
+    border: 2px solid black;
+}
+#box-container1 img{
+    margin-top: 10px;
+    border-radius: 20px;
+    height: 630px;
+    width: 650px;
+    object-fit: cover;
+    object-position: bottom;
+}
+#box-container-footer{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    padding: 1px 10px;
+}
+.box-container-footer-el2 i{
+    margin-left: 360px;
+    font-size: 25px;
+    border: 1.5px solid black;
+    padding: 5px 15px;
+    border-radius: 25px;
+}
